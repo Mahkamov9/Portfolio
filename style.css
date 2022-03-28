@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.box{
+    
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet ;
+    transition: 0.3s;
+}
+.box:hover{
+    transform: translate(100px);
+}
